@@ -18,28 +18,5 @@ int main()
 {
     fastIO;
 
-    int test;
-    cin >> test;
-
-    while(test--){
-        string s1, s2, s3, s4, s5, s6, s7, s8;
-        cin >> s1 >> s2 >> s3 >> s4 >> s5 >> s6 >> s7 >> s8;
-        int flag = 0;
-
-        if(s1 == "RRRRRRRR") flag = 1;
-        else if(s2 == "RRRRRRRR") flag = 1;
-        else if(s3 == "RRRRRRRR") flag = 1;
-        else if(s4 == "RRRRRRRR") flag = 1;
-        else if(s5 == "RRRRRRRR") flag = 1;
-        else if(s6 == "RRRRRRRR") flag = 1;
-        else if(s7 == "RRRRRRRR") flag = 1;
-        else if(s8 == "RRRRRRRR") flag = 1;
-
-        if(flag == 1) cout << 'R' << endl;
-        else cout << 'B' << endl;
-    }
-
-
-
     return 0;
 }
